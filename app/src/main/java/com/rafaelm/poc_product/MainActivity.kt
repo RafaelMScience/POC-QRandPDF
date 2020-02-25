@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity(){
                 finish()
             }
             else{
-                btn_enable_disable.text ="stop"
+                btn_enable_disable.text ="confirmar"
                 qrEader!!.start()
             }
         }

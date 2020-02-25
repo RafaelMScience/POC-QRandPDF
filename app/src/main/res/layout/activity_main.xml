@@ -43,7 +43,7 @@
 
         <ToggleButton
             android:id="@+id/btn_enable_disable"
-            android:textOff="stop"
+            android:textOff="confirmar"
             android:textOn="start"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>

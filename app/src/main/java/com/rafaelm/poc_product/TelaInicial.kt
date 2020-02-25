@@ -25,6 +25,9 @@ class TelaInicial : AppCompatActivity() {
 
         var total = findViewById<EditText>(R.id.caixapdt)
 
+        //salva quantos produtos ainda existe depois de informar quantos produtos foi retirado
+        //saves how many products still exist after informing how many products have been removed
+
         qrcode.setOnClickListener{
             val intent = Intent(this,MainActivity::class.java)
             val editor: SharedPreferences.Editor = sharedPref.edit()
